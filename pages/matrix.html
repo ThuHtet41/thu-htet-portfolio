@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Multiplier | Thu Htet</title>
+
+    <meta name="description"
+        content="Matrix Multiplier project by Thu Htet featuring Verilog, FSM control logic, datapath design, ModelSim verification, and FPGA-oriented digital design.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/project.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="../index.html" class="nav-logo">Thu Htet</a>
+
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#skills">Skills</a></li>
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../matrix.html#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="project-main">
+
+        <section class="project-hero reveal">
+            <p class="section-label">Digital Design • Verilog • FPGA-Oriented Architecture</p>
+
+            <h1>Matrix Multiplier</h1>
+
+            <p class="project-subtitle-large">
+                Verilog-Based Matrix Multiplication System
+            </p>
+
+            <p class="project-intro">
+                A digital hardware design project implementing matrix multiplication using FSM control logic,
+                datapath design, memory interfaces, and ModelSim verification.
+            </p>
+
+            <div class="project-tags">
+                <span>Verilog</span>
+                <span>FSM</span>
+                <span>Datapath</span>
+                <span>ModelSim</span>
+                <span>FPGA</span>
+                <span>Digital Design</span>
+            </div>
+
+            <img src="../assets/images/Matrix_Multiplier_Results.png" alt="Matrix multiplier simulation results"
+                class="project-hero-image">
+        </section>
+
+        <section class="project-section reveal project-snapshot-section">
+            <p class="section-label">Project Snapshot</p>
+
+            <div class="project-snapshot">
+                <div class="snapshot-card">
+                    <span>Course Project</span>
+                    <strong>Digital Systems Design</strong>
+                    <p>Hardware matrix multiplication architecture</p>
+                </div>
+
+                <div class="snapshot-card">
+                    <span>My Role</span>
+                    <strong>RTL Design & Verification</strong>
+                    <p>FSM design • Datapath logic • Simulation testing</p>
+                </div>
+
+                <div class="snapshot-card">
+                    <span>System</span>
+                    <strong>Matrix Multiplication Engine</strong>
+                    <p>Memory-driven multiply-accumulate architecture</p>
+                </div>
+
+                <div class="snapshot-card snapshot-award">
+                    <span>Focus</span>
+                    <strong>Hardware Control & Datapath</strong>
+                    <p>Cycle-based operation, RAM access, and verification</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-section reveal">
+            <div class="project-grid">
+                <div>
+                    <p class="section-label">Problem → Goal → Solution</p>
+                    <h2>Implementing matrix multiplication as digital hardware.</h2>
+                </div>
+
+                <div class="project-text project-text-align-title">
+                    <p>
+                        Matrix multiplication is a computationally intensive operation commonly used in signal
+                        processing, graphics, machine learning, and numerical computing.
+                    </p>
+
+                    <p>
+                        The goal of this project was to design a hardware-oriented matrix multiplication system using
+                        Verilog, rather than relying on software execution.
+                    </p>
+
+                    <p>
+                        The final design used a finite state machine to control memory reads, multiplication,
+                        accumulation, and result storage, with simulation used to verify correct behavior.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-section reveal">
+            <p class="section-label">Engineering Highlights</p>
+            <h2>Key technical pieces of the digital system.</h2>
+
+            <div class="project-highlight-grid">
+                <div class="project-highlight-card">
+                    <h3>FSM Control Logic</h3>
+                    <p>Designed a controller to sequence memory reads, multiply-accumulate operations, and result
+                        writes.</p>
+                </div>
+
+                <div class="project-highlight-card">
+                    <h3>Datapath Design</h3>
+                    <p>Built datapath logic for multiplication, accumulation, index tracking, and output generation.</p>
+                </div>
+
+                <div class="project-highlight-card">
+                    <h3>Memory Interface</h3>
+                    <p>Managed RAM access patterns for matrix inputs and result storage during computation.</p>
+                </div>
+
+                <div class="project-highlight-card">
+                    <h3>ModelSim Verification</h3>
+                    <p>Verified timing, control states, and output correctness through waveform simulation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-section reveal">
+            <div class="project-grid">
+                <div>
+                    <p class="section-label">Development Timeline</p>
+                    <h2>From block diagram to verified simulation results.</h2>
+                </div>
+
+                <div class="project-process">
+                    <div class="process-step">
+                        <span>01</span>
+                        <div>
+                            <h3>Architecture Planning</h3>
+                            <p>Defined the top-level matrix multiplier architecture, including controller, datapath, and
+                                memory blocks.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-step">
+                        <span>02</span>
+                        <div>
+                            <h3>FSM Design</h3>
+                            <p>Designed the finite state machine responsible for sequencing read, compute, and write
+                                operations.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-step">
+                        <span>03</span>
+                        <div>
+                            <h3>Datapath Implementation</h3>
+                            <p>Implemented multiply-accumulate logic and counters needed to compute matrix output
+                                elements.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-step">
+                        <span>04</span>
+                        <div>
+                            <h3>Simulation & Debugging</h3>
+                            <p>Used ModelSim waveforms to inspect control signals, memory outputs, and computation
+                                timing.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-step">
+                        <span>05</span>
+                        <div>
+                            <h3>Result Verification</h3>
+                            <p>Validated that the matrix multiplier produced the expected output values after completing
+                                operation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-section reveal">
+            <div class="showcase-card">
+                <p class="section-label">Engineering Gallery</p>
+
+                <h2>Architecture diagrams, control logic, and simulation results.</h2>
+
+                <p>
+                    The matrix multiplier was designed as a hardware system with a controller, datapath, memory
+                    interfaces, and verification workflow. The design process included block diagram planning, control
+                    logic development, RTL implementation, and waveform-based debugging in ModelSim.
+                </p>
+
+                <div class="showcase-gallery three-images">
+                    <a href="../assets/images/MAC_BlockDiagram.png" class="lightbox-link">
+                        <img src="../assets/images/MAC_BlockDiagram.png" alt="MAC block diagram">
+                    </a>
+                    <a href="../assets/images/Matrix_Mutiplication_Logic.png" class="lightbox-link">
+                        <img src="../assets/images/Matrix_Mutiplication_Logic.png"
+                            alt="Matrix multiplier control logic">
+                    </a>
+                    <a href="../assets/images/Matrix_Multiplier_Results.png" class="lightbox-link">
+                        <img src="../assets/images/Matrix_Multiplier_Results.png" alt="ModelSim simulation results">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-section reveal">
+            <div class="project-grid">
+                <div>
+                    <p class="section-label">Lessons Learned</p>
+                    <h2>What this project taught me as a digital designer.</h2>
+                </div>
+
+                <div class="project-text project-text-align-title">
+                    <p>
+                        This project strengthened my understanding of how control logic and datapath design work
+                        together in hardware systems.
+                    </p>
+
+                    <p>
+                        I gained experience writing Verilog RTL, designing finite state machines, debugging timing
+                        behavior, reading waveforms, and verifying hardware outputs through simulation.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="site-mini-footer">
+        <div class="mini-footer-main">
+            <div>
+                <strong>Thu Htet</strong>
+                <p>Bachelor of Science in Electrical & Computer Engineering</p>
+            </div>
+
+            <div>
+                <span>Contact</span>
+                <a href="mailto:thuhtet2022@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/thu-htet1" target="_blank">LinkedIn</a>
+                <a href="https://github.com/ThuHtet41" target="_blank">GitHub</a>
+            </div>
+
+            <div>
+                <span>Resources</span>
+                <a href="../assets/resume/Thu Htet_Resume.pdf" target="_blank">Resume</a>
+            </div>
+        </div>
+
+        <div class="mini-footer-bottom">
+            <span>© 2026 Thu Htet. All Rights Reserved.</span>
+            <span>Designed & Developed by Thu Htet</span>
+        </div>
+    </footer>
+
+    <div class="media-lightbox" id="mediaLightbox">
+        <button class="media-lightbox-close" id="mediaLightboxClose">&times;</button>
+        <img src="" alt="" id="mediaLightboxImage">
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

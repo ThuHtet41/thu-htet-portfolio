@@ -1,0 +1,46 @@
+:root {
+
+    /* =========================
+       COLORS
+    ========================== */
+
+    --color-bg: #f6f8fb;
+    --color-surface: #ffffff;
+    --color-text: #111827;
+    --color-muted: #6b7280;
+    --color-border: #e5e7eb;
+    --color-accent: #4552ff;
+
+    /* Badge Colors */
+    --color-badge-bg: #f8fafc;
+    --color-badge-border: #d1d5db;
+    --color-badge-text: #374151;
+
+    /* =========================
+       TYPOGRAPHY
+    ========================== */
+
+    --font-main: "Inter", sans-serif;
+
+    /* =========================
+       LAYOUT
+    ========================== */
+
+    --container-width: 1120px;
+
+    /* =========================
+       BORDER RADIUS
+    ========================== */
+
+    --radius-sm: 12px;
+    --radius-md: 18px;
+    --radius-lg: 28px;
+
+    /* =========================
+       SHADOWS
+    ========================== */
+
+    --shadow-soft: 0 18px 40px rgba(0,0,0,.08);
+    --shadow-card: 0 30px 80px rgba(17,24,39,.12);
+
+}
