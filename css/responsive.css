@@ -1,9 +1,266 @@
-@media (max-width: 700px) {
-    .footer-intro {
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px) {
+
+    .hero-content,
+    .about-grid,
+    .project-feature,
+    .project-grid,
+    .project-hero-details {
         grid-template-columns: 1fr;
     }
 
-    .footer-bottom {
+    .skills-grid,
+    .project-secondary-grid,
+    .project-highlight-grid,
+    .project-snapshot {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .site-header {
+        padding: 14px;
+    }
+
+    .navbar {
         flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        padding: 18px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+    }
+
+    .hero,
+    .about,
+    .skills,
+    .projects,
+    .timeline-section,
+    .project-main {
+        margin-top: 24px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .hero {
+        padding-top: 48px;
+        padding-bottom: 56px;
+    }
+
+    .hero-content,
+    .about-grid,
+    .project-feature,
+    .project-grid,
+    .project-hero-details {
+        grid-template-columns: 1fr;
+        gap: 36px;
+    }
+
+    .hero h1,
+    .project-hero h1 {
+        font-size: clamp(2.45rem, 13vw, 3.7rem);
+        line-height: .98;
+        letter-spacing: -0.06em;
+    }
+
+    .hero-description,
+    .project-intro,
+    .project-text {
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+
+    .hero-visual,
+    .about-side,
+    .project-visual,
+    .project-card-image {
+        width: 100%;
+    }
+
+    .project-section {
+        padding: 64px 0;
+    }
+
+    .project-text,
+    .project-text-align-title {
+        padding-top: 0;
+    }
+
+    .skills-grid,
+    .project-secondary-grid,
+    .project-highlight-grid,
+    .project-snapshot,
+    .project-gallery,
+    .team-grid,
+    .showcase-gallery,
+    .showcase-gallery.four-images,
+    .showcase-gallery.three-images,
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card,
+    .skill-card,
+    .project-secondary-card,
+    .snapshot-card,
+    .project-highlight-card,
+    .team-member {
+        width: 100%;
+    }
+
+    .project-feature,
+    .project-card,
+    .project-secondary-card,
+    .skill-card {
+        overflow: hidden;
+    }
+
+    .project-hero-image {
+        aspect-ratio: 4 / 3;
+    }
+
+    .project-hero-visual {
+        min-height: 300px;
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .project-hero-visual img {
+        max-width: 280px;
+        transform: scale(1.05);
+    }
+
+    .project-tags,
+    .hero-buttons,
+    .about-focus-tags {
+        flex-wrap: wrap;
+    }
+
+    .process-step {
+        grid-template-columns: 64px 1fr;
+        padding: 18px;
+    }
+
+    .process-step:not(:last-child)::after {
+        left: 44px;
+    }
+
+    .timeline-item {
+        grid-template-columns: 48px 1fr;
+    }
+
+    .timeline-card {
+        width: 100%;
+    }
+
+    .mini-footer-main {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .mini-footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 480px) {
+    .navbar {
+        border-radius: 24px;
+    }
+
+    .nav-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links {
+        font-size: .9rem;
+        justify-content: center;
+    }
+
+    .hero,
+    .about,
+    .skills,
+    .projects,
+    .timeline-section,
+    .project-main {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .hero h1,
+    .project-hero h1 {
+        font-size: clamp(2.25rem, 12vw, 3.2rem);
+    }
+
+    .section-title,
+    .project-section h2 {
+        font-size: clamp(2rem, 10vw, 2.8rem);
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn {
+        text-align: center;
+        width: 100%;
+    }
+
+    .project-tags span,
+    .about-focus-tags strong {
+        font-size: .8rem;
+        padding: 7px 11px;
+    }
+
+    .project-hero {
+        padding-top: 64px;
+    }
+
+    .project-section {
+        padding: 52px 0;
+    }
+
+    .showcase-card {
+        padding: 24px;
+    }
+
+    .project-gallery img,
+    .showcase-gallery img,
+    .showcase-gallery.four-images img,
+    .showcase-gallery.three-images img {
+        height: auto;
+        aspect-ratio: 4 / 3;
+    }
+
+    .process-step {
+        grid-template-columns: 1fr;
+    }
+
+    .process-step:not(:last-child)::after {
+        display: none;
     }
 }
